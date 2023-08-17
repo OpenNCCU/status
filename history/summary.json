@@ -19,22 +19,22 @@
   },
   {
     "name": "OpenNCCU 選課系統",
-    "url": "https://beta-scsropennccu.com",
-    "icon": "https://icons.duckduckgo.com/ip3/beta-scsropennccu.com.ico",
+    "url": "https://beta-scsr.opennccu.com",
+    "icon": "https://icons.duckduckgo.com/ip3/beta-scsr.opennccu.com.ico",
     "slug": "open-nccu",
     "status": "down",
-    "uptime": "2.04%",
-    "uptimeDay": "2.04%",
-    "uptimeWeek": "2.04%",
-    "uptimeMonth": "2.04%",
-    "uptimeYear": "2.04%",
+    "uptime": "1.84%",
+    "uptimeDay": "1.84%",
+    "uptimeWeek": "1.84%",
+    "uptimeMonth": "1.84%",
+    "uptimeYear": "1.84%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2023-08-17": 0
+      "2023-08-17": 3
     }
   }
 ]
