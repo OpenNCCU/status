@@ -6,7 +6,7 @@ sites:
   - name: OpenNCCU App
     url: https://opennccu.com
   - name: OpenNCCU 選課系統
-    url: https://beta-scsropennccu.com
+    url: https://beta-scsr.opennccu.com
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
