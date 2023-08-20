@@ -4,25 +4,27 @@
     "url": "https://opennccu.com",
     "icon": "https://icons.duckduckgo.com/ip3/opennccu.com.ico",
     "slug": "open-nccu-app",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.96%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.96%",
+    "uptimeYear": "99.96%",
     "time": 987,
     "timeDay": 705,
     "timeWeek": 987,
     "timeMonth": 987,
     "timeYear": 987,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-08-20": 2
+    }
   },
   {
     "name": "OpenNCCU 選課系統",
     "url": "https://beta-scsr.opennccu.com",
     "icon": "https://icons.duckduckgo.com/ip3/beta-scsr.opennccu.com.ico",
     "slug": "open-nccu",
-    "status": "up",
+    "status": "down",
     "uptime": "99.92%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.92%",
@@ -34,6 +36,7 @@
     "timeMonth": 844,
     "timeYear": 844,
     "dailyMinutesDown": {
+      "2023-08-20": 0,
       "2023-08-17": 3
     }
   }
