@@ -4,18 +4,19 @@
     "url": "https://opennccu.com",
     "icon": "https://icons.duckduckgo.com/ip3/opennccu.com.ico",
     "slug": "open-nccu-app",
-    "status": "up",
-    "uptime": "98.99%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.99%",
-    "uptimeYear": "98.99%",
+    "status": "down",
+    "uptime": "98.98%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "98.98%",
+    "uptimeYear": "98.98%",
     "time": 1450,
     "timeDay": 1003,
     "timeWeek": 2375,
     "timeMonth": 1450,
     "timeYear": 1450,
     "dailyMinutesDown": {
+      "2023-08-31": 2,
       "2023-08-21": 25,
       "2023-08-20": 171
     }
@@ -25,9 +26,9 @@
     "url": "https://beta-scsr.opennccu.com",
     "icon": "https://icons.duckduckgo.com/ip3/beta-scsr.opennccu.com.ico",
     "slug": "open-nccu",
-    "status": "up",
+    "status": "down",
     "uptime": "99.11%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.11%",
     "uptimeYear": "99.11%",
@@ -37,6 +38,7 @@
     "timeMonth": 1043,
     "timeYear": 1043,
     "dailyMinutesDown": {
+      "2023-08-31": 0,
       "2023-08-20": 170,
       "2023-08-17": 3
     }
@@ -46,9 +48,9 @@
     "url": "https://oauth.opennccu.com/api/status",
     "icon": "https://icons.duckduckgo.com/ip3/oauth.opennccu.com.ico",
     "slug": "open-nccu-oauth",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -57,6 +59,8 @@
     "timeWeek": 1095,
     "timeMonth": 1049,
     "timeYear": 1049,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2023-08-31": 0
+    }
   }
 ]
