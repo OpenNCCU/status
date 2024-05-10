@@ -9,6 +9,8 @@ sites:
     url: https://course.opennccu.com
   - name: OpenNCCU Oauth
     url: https://oauth.opennccu.com/api/status
+  - name: OpenNCCU 批量選課協助頁
+    url: https://copy-checker.opennccu.com
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
