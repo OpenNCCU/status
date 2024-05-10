@@ -9,7 +9,7 @@ sites:
     url: https://course.opennccu.com
   - name: OpenNCCU Oauth
     url: https://oauth.opennccu.com/api/status
-  - name: OpenNCCU 批量選課協助頁
+  - name: OpenNCCU Copy Checker 批量選課協助頁
     url: https://copy-checker.opennccu.com
 
 status-website:
