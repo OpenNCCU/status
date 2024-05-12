@@ -7,6 +7,8 @@ sites:
     url: https://opennccu.com
   - name: OpenNCCU 選課系統
     url: https://course.opennccu.com
+  - name: OpenNCCU SCSR API
+    url: https://api-course.opennccu.com/
   - name: OpenNCCU Oauth
     url: https://oauth.opennccu.com/api/status
   - name: OpenNCCU Copy Checker 批量選課協助頁
