@@ -128,19 +128,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/gpa-calc.opennccu.com.ico",
     "slug": "gpa-calculator",
     "status": "up",
-    "uptime": "2.06%",
-    "uptimeDay": "2.06%",
-    "uptimeWeek": "2.06%",
-    "uptimeMonth": "2.06%",
-    "uptimeYear": "2.06%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 635,
     "timeDay": 635,
     "timeWeek": 635,
     "timeMonth": 635,
     "timeYear": 635,
-    "dailyMinutesDown": {
-      "2024-05-12": 8
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "OpenNCCU Copy Checker 批量選課協助頁",
