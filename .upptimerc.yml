@@ -11,6 +11,8 @@ sites:
     url: https://api-course.opennccu.com/
   - name: OpenNCCU Oauth
     url: https://oauth.opennccu.com/api/status
+  - name: GPA Calculator
+    url: https://gpa-calc.opennccu.com/api/gpa
   - name: OpenNCCU Copy Checker 批量選課協助頁
     url: https://copy-checker.opennccu.com
 
