@@ -1,7 +1,7 @@
 url: https://gpa-calc.opennccu.com/api/gpa
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-06-30T23:20:04.535Z
+status: up
+code: 400
+responseTime: 682
+lastUpdated: 2024-07-01T11:57:30.771Z
 startTime: 2024-05-12T22:34:44.191Z
 generator: Upptime <https://github.com/upptime/upptime>
