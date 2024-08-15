@@ -9,12 +9,15 @@ sites:
     url: https://course.opennccu.com
   - name: OpenNCCU SCSR API
     url: https://api-course.opennccu.com/
+    expectedStatusCodes:
+      - 200
   - name: OpenNCCU Oauth
     url: https://oauth.opennccu.com/api/status
   - name: GPA Calculator
     url: https://gpa-calc.opennccu.com/api/gpa
     expectedStatusCodes:
-      - 400 # Well GPA Calcultor will need status router
+      - 200
+      - 400 # Well, GPA Calcultor will need status router
   - name: OpenNCCU Copy Checker 批量選課協助頁
     url: https://help.opennccu.com
 
@@ -22,15 +25,17 @@ status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
-  baseUrl: /status # where "repo" is your repository name
+  # baseUrl: /status # where "repo" is your repository name
   name: OpenNCCU Status
+  cname: status.opennccu.com
   introTitle: "OpenNCCU Status"
   introMessage: "OpenNCCU Status Page, powered by Uptime"
   navbar:
     - title: Status
-      href: /status
+      href: /
     - title: GitHub
       href: https://github.com/OpenNCCU/status
+  theme: light
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
