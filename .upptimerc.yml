@@ -5,17 +5,24 @@ repo: status # The name of this repository
 sites:
   - name: OpenNCCU App
     url: https://opennccu.com
-  - name: OpenNCCU 選課系統
+
+  - name: OpenNCCU SCSR
     url: https://course.opennccu.com
+
   - name: OpenNCCU SCSR API
-    url: https://api-course.opennccu.com/
+    url: https://course.opennccu.com/api/
+    method: POST
+
   - name: OpenNCCU Oauth
     url: https://oauth.opennccu.com/api/status
+
   - name: GPA Calculator
     url: https://gpa-calc.opennccu.com/api/gpa
+    method: POST
     expectedStatusCodes:
       - 400 # Well, GPA Calcultor will need status router
-  - name: OpenNCCU Copy Checker 批量選課協助頁
+
+  - name: OpenNCCU SCSR Helper
     url: https://help.opennccu.com
 
 status-website:
@@ -25,14 +32,17 @@ status-website:
   # baseUrl: /status # where "repo" is your repository name
   name: OpenNCCU Status
   cname: status.opennccu.com
-  introTitle: "OpenNCCU Status"
+  logoUrl: https://status.opennccu.com/logo.png
+  favicon: https://status.opennccu.com/logo.png
+  faviconSvg: https://status.opennccu.com/favicon.svg
+  introTitle: "OpenNCCU Service Status"
   introMessage: "OpenNCCU Status Page, powered by Uptime"
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/OpenNCCU/status
-  theme: light
+  themeUrl: https://status.opennccu.com/index.css
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
