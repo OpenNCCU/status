@@ -10,8 +10,10 @@ sites:
     url: https://course.opennccu.com
 
   - name: OpenNCCU SCSR API
-    url: https://course.opennccu.com/api/
+    url: https://course.opennccu.com/api/search
     method: POST
+    expectedStatusCodes:
+      - 200
 
   - name: OpenNCCU Oauth
     url: https://oauth.opennccu.com/api/status
