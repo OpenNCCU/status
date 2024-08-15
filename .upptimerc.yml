@@ -9,14 +9,11 @@ sites:
     url: https://course.opennccu.com
   - name: OpenNCCU SCSR API
     url: https://api-course.opennccu.com/
-    expectedStatusCodes:
-      - 200
   - name: OpenNCCU Oauth
     url: https://oauth.opennccu.com/api/status
   - name: GPA Calculator
     url: https://gpa-calc.opennccu.com/api/gpa
     expectedStatusCodes:
-      - 200
       - 400 # Well, GPA Calcultor will need status router
   - name: OpenNCCU Copy Checker 批量選課協助頁
     url: https://help.opennccu.com
