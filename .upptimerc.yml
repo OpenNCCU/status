@@ -37,13 +37,44 @@ status-website:
   favicon: https://status.opennccu.com/logo.png
   faviconSvg: https://status.opennccu.com/favicon.svg
   introTitle: "OpenNCCU Service Status"
-  introMessage: "OpenNCCU Status Page, powered by Upptime"
+  introMessage: 
+    OpenNCCU Status Page, powered by Upptime. 
+    Contact us if you have any questions. 
+    [Instagram](https://instagram.com/open.nccu) [Mail](mailto:opennccu@gmail.com)
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/OpenNCCU/status
   themeUrl: https://status.opennccu.com/index.css
+  customHeadHtml: <!-- HTML Meta Tags -->
+    <meta name="description" content="Service Status of OpenNCCU">
 
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://status.opennccu.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="OpenNCCU Status">
+    <meta property="og:description" content="Service Status of OpenNCCU">
+    <meta property="og:image" content="https://status.opennccu.com/OG.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="status.opennccu.com">
+    <meta property="twitter:url" content="https://status.opennccu.com/">
+    <meta name="twitter:title" content="OpenNCCU Status">
+    <meta name="twitter:description" content="Service Status of OpenNCCU">
+    <meta name="twitter:image" content="https://status.opennccu.com/OG.png">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+    <!-- Apple Web App -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="OpenNCCU Status">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta name="author" content="OpenNCCU">
+    <link rel="author" href="https://opennccu.com/">
+  customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
