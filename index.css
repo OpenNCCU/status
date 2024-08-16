@@ -1,26 +1,48 @@
 :root {
-    --body-background-color: #F0F0F0;
+    --body-background-color: #f0f0f0;
     --body-text-color: #616161;
-    --card-background-color: #F0F0F0;
-    --nav-background-color: #F0F0F0;
-    --nav-border-bottom-color: #59CC95;
-    --nav-current-border-bottom-color: #59CC95;
-    --card-border-color: #59CC95;
-    --down-border-left-color: #CE5E5E;
-    --down-background-color: #CE5E5E;
-    --degraded-border-left-color: #FFBE5E;
-    --up-border-left-color: #59CC95;
-    --tag-color: #81EDB9;
-    --tag-up-background-color: #59CC95;
-    --tag-down-background-color: #CE5E5E;
-    --tag-degraded-background-color: #FFBE5E;
-    --change-background-color: #FFBE5E;
+    --card-background-color: #f0f0f0;
+    --nav-background-color: #f0f0f0;
+    /* --nav-border-bottom-color: #59CC95;
+    --nav-current-border-bottom-color: #59CC95; */
+    --card-border-color: #59cc95;
+    --down-border-left-color: #ce5e5e;
+    --down-background-color: #ce5e5e;
+    --degraded-border-left-color: #ffbe5e;
+    --up-border-left-color: #59cc95;
+    --tag-color: #f0f0f0;
+    --tag-up-background-color: #59cc95;
+    --tag-down-background-color: #ce5e5e;
+    --tag-degraded-background-color: #ffbe5e;
+    --change-background-color: #ffbe5e;
     --error-button-border-color: #616161;
-    --error-button-background-color: #F0F0F0;
+    --error-button-background-color: #f0f0f0;
     --error-button-color: #616161;
     --submit-button-border-color: #616161;
-    --submit-button-background-color: #F0F0F0;
+    --submit-button-background-color: #f0f0f0;
     --submit-button-color: #616161;
     --graph-opacity: 1;
     --graph-filter: none;
+}
+
+.link {
+    box-shadow:
+        -5px -5px 15px #fcfcfc,
+        6px 6px 18px -14px #878787,
+        7px 6px 7px -6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+.down-active {
+    color: #f0f0f0;
+}
+
+nav {
+    box-shadow:
+        -5px -5px 15px #fcfcfc,
+        6px 6px 18px -14px #878787,
+        7px 6px 7px -6px rgba(0, 0, 0, 0.1);
 }
