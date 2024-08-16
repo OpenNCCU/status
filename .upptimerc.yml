@@ -37,10 +37,16 @@ status-website:
   favicon: https://status.opennccu.com/logo.png
   faviconSvg: https://status.opennccu.com/favicon.svg
   introTitle: "OpenNCCU Service Status"
-  introMessage: 
-    OpenNCCU Status Page, powered by Upptime. 
-    Contact us if you have any questions. 
-    [Instagram](https://instagram.com/open.nccu) [Mail](mailto:opennccu@gmail.com)
+  introMessage: OpenNCCU Status Page, powered by Upptime.
+
+    Contact us if you have any questions.
+
+    [![Instagram](https://status.opennccu.com/mdi-instagram.svg)](https://instagram.com/open.nccu)
+    [![Mail](https://status.opennccu.com/mdi-email.svg)](mailto:opennccu@gmail.com)
+    [![Discord](https://status.opennccu.com/mdi-discord.svg)](https://discord.gg/epArwHVmpk)
+
+    [![Form](https://status.opennccu.com/mid-file-document.svg) Report Issue](https://forms.gle/yfooxi1BofpwCCDb9)
+
   navbar:
     - title: Status
       href: /
