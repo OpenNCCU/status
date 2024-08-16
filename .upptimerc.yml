@@ -30,7 +30,6 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
   # baseUrl: /status # where "repo" is your repository name
   name: OpenNCCU Status
   cname: status.opennccu.com
@@ -38,7 +37,7 @@ status-website:
   favicon: https://status.opennccu.com/logo.png
   faviconSvg: https://status.opennccu.com/favicon.svg
   introTitle: "OpenNCCU Service Status"
-  introMessage: "OpenNCCU Status Page, powered by Uptime"
+  introMessage: "OpenNCCU Status Page, powered by Upptime"
   navbar:
     - title: Status
       href: /
