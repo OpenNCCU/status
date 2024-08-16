@@ -36,11 +36,11 @@ status-website:
   logoUrl: https://status.opennccu.com/logo.png
   favicon: https://status.opennccu.com/logo.png
   faviconSvg: https://status.opennccu.com/favicon.svg
-  introTitle: "OpenNCCU Service Status, powered by Upptime. Contact us if you have any questions."
-  introMessage: |
+  introTitle:  OpenNCCU Service Status <br />
     [![Instagram](https://status.opennccu.com/mdi-instagram.svg)](https://instagram.com/open.nccu)
     [![Mail](https://status.opennccu.com/mdi-email.svg)](mailto:opennccu@gmail.com)
     [![Discord](https://status.opennccu.com/mdi-discord.svg)](https://discord.gg/epArwHVmpk)
+  introMessage: "Powered by Upptime. Contact us if you have any questions."
 
   navbar:
     - title: GitHub
