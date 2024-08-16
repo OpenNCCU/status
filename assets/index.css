@@ -25,7 +25,7 @@
     --graph-filter: none;
 }
 
-.link {
+.link, article .up {
     box-shadow:
         -5px -5px 15px #fcfcfc,
         6px 6px 18px -14px #878787,
