@@ -3,8 +3,8 @@
     --body-text-color: #616161;
     --card-background-color: #f0f0f0;
     --nav-background-color: #f0f0f0;
-    /* --nav-border-bottom-color: #59CC95;
-    --nav-current-border-bottom-color: #59CC95; */
+    --nav-border-bottom-color: #f0f0f0;
+    --nav-current-border-bottom-color: #f0f0f0;
     --card-border-color: #59cc95;
     --down-border-left-color: #ce5e5e;
     --down-background-color: #ce5e5e;
@@ -37,7 +37,7 @@
 }
 
 .down-active {
-    color: #f0f0f0;
+    color: #f0f0f0 !important;
 }
 
 nav {
