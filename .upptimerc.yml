@@ -38,9 +38,9 @@ status-website:
   faviconSvg: https://status.opennccu.com/favicon.svg
   introTitle:  OpenNCCU Service Status
   introMessage: Powered by Upptime. Contact us if you have any questions. <br />
-    [![Instagram](https://status.opennccu.com/mdi-instagram.svg)](https://instagram.com/open.nccu)
-    [![Mail](https://status.opennccu.com/mdi-email.svg)](mailto:opennccu@gmail.com)
-    [![Discord](https://status.opennccu.com/mdi-discord.svg)](https://discord.gg/epArwHVmpk)
+    <a href="https://instagram.com/open.nccu" target="_blank"><img src="https://status.opennccu.com/mdi-instagram.svg" alt="Instagram"></a>
+    <a href="mailto:opennccu@gmail.com" target="_blank"><img src="https://status.opennccu.com/mdi-email.svg" alt="Mail"></a>
+    <a href="https://discord.gg/epArwHVmpk" target="_blank"><img src="https://status.opennccu.com/mdi-discord.svg" alt="Discord"></a>
 
   navbar:
     - title: GitHub
