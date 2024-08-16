@@ -36,22 +36,18 @@ status-website:
   logoUrl: https://status.opennccu.com/logo.png
   favicon: https://status.opennccu.com/logo.png
   faviconSvg: https://status.opennccu.com/favicon.svg
-  introTitle: "OpenNCCU Service Status"
-  introMessage: OpenNCCU Status Page, powered by Upptime.
-
-    Contact us if you have any questions.
-
+  introTitle: "OpenNCCU Service Status, powered by Upptime. Contact us if you have any questions."
+  introMessage: |
     [![Instagram](https://status.opennccu.com/mdi-instagram.svg)](https://instagram.com/open.nccu)
     [![Mail](https://status.opennccu.com/mdi-email.svg)](mailto:opennccu@gmail.com)
     [![Discord](https://status.opennccu.com/mdi-discord.svg)](https://discord.gg/epArwHVmpk)
 
-    [![Form](https://status.opennccu.com/mid-file-document.svg) Report Issue](https://forms.gle/yfooxi1BofpwCCDb9)
-
   navbar:
-    - title: Status
-      href: /
     - title: GitHub
       href: https://github.com/OpenNCCU/status
+    - title: Report Issue
+      href: https://forms.gle/yfooxi1BofpwCCDb9
+
   themeUrl: https://status.opennccu.com/index.css
   customHeadHtml: <!-- HTML Meta Tags -->
     <meta name="description" content="Service Status of OpenNCCU">
