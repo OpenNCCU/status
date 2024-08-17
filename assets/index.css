@@ -72,6 +72,12 @@ nav {
     gap: 0.25rem;
 }
 
+@media screen and (max-width: 450px) {
+    .icon-link > strong {
+        display: none;
+    }
+}
+
 .icon-divider {
     width: 1px;
     height: 1.5rem;
