@@ -47,13 +47,13 @@ status-website:
     src="https://status.opennccu.com/mdi-discord.svg" alt="Discord"></a>
     <div class="icon-divider"></div>
     <a href="https://forms.gle/yfooxi1BofpwCCDb9" target="_blank" class="icon-link">
-    <img src="./assets/mid-file-document.svg" alt="Form">
+    <img src="https://status.opennccu.com/mid-file-document.svg" alt="Form">
     <strong>Report Issue</strong>
     </a>
     <div class="icon-divider"></div>
     <a href="https://github.com/OpenNCCU/status" target="_blank" class="icon-link"><img
-    src="./assets/mdi-github.svg" alt="Github">
-    <img class="icon-footnote" src="./assets/favicon.svg" alt="Logo">
+    src="https://status.opennccu.com/mdi-github.svg" alt="Github">
+    <img class="icon-footnote" src="https://status.opennccu.com/favicon.svg" alt="Logo">
     </a>
     </div>
 
