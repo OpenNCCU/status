@@ -25,7 +25,8 @@
     --graph-filter: none;
 }
 
-.link, article .up {
+.link,
+article.up {
     box-shadow:
         -5px -5px 15px #fcfcfc,
         6px 6px 18px -14px #878787,
@@ -45,4 +46,41 @@ nav {
         -5px -5px 15px #fcfcfc,
         6px 6px 18px -14px #878787,
         7px 6px 7px -6px rgba(0, 0, 0, 0.1);
+}
+
+.icon-link-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+    box-shadow:
+        -5px -5px 15px #fcfcfc,
+        6px 6px 18px -14px #878787,
+        7px 6px 7px -6px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    border-radius: 0.75rem;
+}
+
+.icon-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: var(--body-text-color);
+    text-decoration: none;
+    gap: 0.25rem;
+}
+
+.icon-divider {
+    width: 1px;
+    height: 1.5rem;
+    background-color: var(--body-text-color);
+}
+
+.icon-footnote {
+    height: 24px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
 }
