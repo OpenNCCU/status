@@ -36,17 +36,32 @@ status-website:
   logoUrl: https://status.opennccu.com/logo.png
   favicon: https://status.opennccu.com/logo.png
   faviconSvg: https://status.opennccu.com/favicon.svg
-  introTitle:  OpenNCCU Service Status
-  introMessage: Powered by Upptime. Contact us if you have any questions. <br />
-    <a href="https://instagram.com/open.nccu" target="_blank"><img src="https://status.opennccu.com/mdi-instagram.svg" alt="Instagram"></a>
-    <a href="mailto:opennccu@gmail.com" target="_blank"><img src="https://status.opennccu.com/mdi-email.svg" alt="Mail"></a>
-    <a href="https://discord.gg/epArwHVmpk" target="_blank"><img src="https://status.opennccu.com/mdi-discord.svg" alt="Discord"></a>
+  introTitle: OpenNCCU Service Status
+  introMessage: Powered by Upptime. Contact us if you have any questions.
+    <div class="icon-link-container">
+    <a href="https://instagram.com/open.nccu" class="icon-link" target="_blank"><img
+    src="https://status.opennccu.com/mdi-instagram.svg" class="icon-link" alt="Instagram"></a>
+    <a href="mailto:opennccu@gmail.com" class="icon-link" target="_blank"><img
+    src="https://status.opennccu.com/mdi-email.svg" alt="Mail"></a>
+    <a href="https://discord.gg/epArwHVmpk" class="icon-link" target="_blank"><img
+    src="https://status.opennccu.com/mdi-discord.svg" alt="Discord"></a>
+    <div class="icon-divider"></div>
+    <a href="https://forms.gle/yfooxi1BofpwCCDb9" target="_blank" class="icon-link">
+    <img src="./assets/mid-file-document.svg" alt="Form">
+    <strong>Report Issue</strong>
+    </a>
+    <div class="icon-divider"></div>
+    <a href="https://github.com/OpenNCCU/status" target="_blank" class="icon-link"><img
+    src="./assets/mdi-github.svg" alt="Github">
+    <img class="icon-footnote" src="./assets/favicon.svg" alt="Logo">
+    </a>
+    </div>
 
-  navbar:
-    - title: GitHub
-      href: https://github.com/OpenNCCU/status
-    - title: Report Issue
-      href: https://forms.gle/yfooxi1BofpwCCDb9
+  # navbar:
+  #   - title: GitHub
+  #     href: https://github.com/OpenNCCU/status
+  #   - title: Report Issue
+  #     href: https://forms.gle/yfooxi1BofpwCCDb9
 
   themeUrl: https://status.opennccu.com/index.css
   customHeadHtml: <!-- HTML Meta Tags -->
@@ -55,7 +70,7 @@ status-website:
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://status.opennccu.com/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="OpenNCCU Status">
+    <meta property="og:title" content="OpenNCCU Service Status">
     <meta property="og:description" content="Service Status of OpenNCCU">
     <meta property="og:image" content="https://status.opennccu.com/OG.png">
 
@@ -63,7 +78,7 @@ status-website:
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="status.opennccu.com">
     <meta property="twitter:url" content="https://status.opennccu.com/">
-    <meta name="twitter:title" content="OpenNCCU Status">
+    <meta name="twitter:title" content="OpenNCCU Service Status">
     <meta name="twitter:description" content="Service Status of OpenNCCU">
     <meta name="twitter:image" content="https://status.opennccu.com/OG.png">
 
@@ -72,7 +87,7 @@ status-website:
     <!-- Apple Web App -->
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-title" content="OpenNCCU Status">
+    <meta name="apple-mobile-web-app-title" content="OpenNCCU Service Status">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
     <meta name="author" content="OpenNCCU">
