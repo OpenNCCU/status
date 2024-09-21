@@ -1,7 +1,7 @@
 url: https://course.opennccu.com/api/search
-status: up
-code: 200
-responseTime: 576
-lastUpdated: 2024-09-20T23:14:06.641Z
+status: down
+code: 530
+responseTime: 94
+lastUpdated: 2024-09-21T14:27:01.535Z
 startTime: 2024-05-12T21:56:15.047Z
 generator: Upptime <https://github.com/upptime/upptime>
