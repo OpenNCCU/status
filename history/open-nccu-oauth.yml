@@ -1,7 +1,7 @@
 url: https://oauth.opennccu.com/api/status
-status: up
-code: 200
-responseTime: 552
-lastUpdated: 2024-10-17T23:15:27.061Z
+status: down
+code: 530
+responseTime: 126
+lastUpdated: 2024-10-18T01:15:58.891Z
 startTime: 2023-08-21T05:35:43.316Z
 generator: Upptime <https://github.com/upptime/upptime>
